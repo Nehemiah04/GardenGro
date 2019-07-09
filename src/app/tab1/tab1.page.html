@@ -1,0 +1,39 @@
+<ion-card>
+  <img class="GardenGro" src="../../assets/GardenGro.png"/>
+  <ion-toolbar>
+
+  </ion-toolbar>
+</ion-card>
+
+<ion-content class="card-background-page">
+
+<a routerLink="/tabs/tab2">
+    <ion-card>
+      <img class="vegetable" src="../../assets/carrot.jpg"/>
+      <ion-buttons>
+          <button ion-button (click)="goAnOtherPage(tab2)">Go an tab2 </button>
+        </ion-buttons>
+      <div class="card-title">Carrot</div>
+    </ion-card>
+  </a>
+  
+  <a routerLink="/tabs/tab3">
+    <ion-card>
+      <img class="vegetable" src="../../assets/celery.jpg"/>
+      <div class="card-title">Celery</div>
+    </ion-card>
+  
+    <ion-card>
+      <img class="vegetable" src="../../assets/tomato.jpg"/>
+      <div class="card-title">Tomato</div>
+    </ion-card>
+  </a>
+  
+  <a routerLink= "/tabs/tab2">
+      <ion-card tappable>
+          <img class="vegetable" src="../../assets/potato.jpg"/>
+          <div class="card-title">Potato</div>
+        </ion-card>
+      </a>
+  
+  </ion-content>
