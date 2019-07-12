@@ -34,6 +34,15 @@ const routes: Routes = [
           }
         ]
       },
+      // {
+      //   path: 'tab4',
+      //   children: [
+      //     {
+      //       path: '',
+      //       loadChildren: '../../tab1/tab1.module#Tab1PageModule'
+      //     }
+      //   ]
+      // },
       {
         path: '',
         redirectTo: '/tabs/tab1',
