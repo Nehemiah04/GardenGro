@@ -1,12 +1,13 @@
   ion-card {
     position: relative;
     text-align: center;
+    border-radius: 20px;
   }
 
   .card-title {
     position: absolute;
-    top: 36%;
-    font-size: 2.0em;
+    top: 22%;
+    font-size: 34px;
     width: 100%;
     font-weight: bold;
     color:black;
@@ -23,9 +24,11 @@
     display: block;
     margin: auto;
     width: 323px;
-height: 101px;
+    height: 101px;
     color: black;
+    background-color: white;
     margin-bottom: 20px;
+    box-shadow: -8px 16px 20px rgba(0, 0, 0, 0.25);
   }
 ion-toolbar{
   margin-bottom: 20px;
@@ -42,11 +45,10 @@ ion-toolbar{
 
   .bg{
     background-color: #32BA40;
-    
-  }
-
-  .firstcard {
-
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 33px;
   }
 
  img{
@@ -61,6 +63,16 @@ ion-toolbar{
   font-size: 34px;
  }
 
- .ionic-card-content{
+ .ion-card-content{
    background-color: white;
+   display: inline-block;
+ }
+
+ .text {
+   width: 50px;
+   height: 50px;
+ }
+
+ ion-content{
+  background-color: #32BA40;
  }
