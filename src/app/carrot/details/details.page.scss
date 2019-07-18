@@ -3,8 +3,8 @@
     height: 20px;
     margin-left: 0;
     margin-right: 0;
-    margin-left: 104px;
-    margin-right: -48px;
+    margin-left: 18px;
+    margin-right: -7px;
     display: inline;
     background-color:white;
 }
@@ -15,4 +15,15 @@ p {
 
 ion-scroll {
     height: 100%;
+}
+
+.bg {
+    background-color: #32BA40;
+}
+
+.rightspace{
+    margin-left: 15px;
+}
+ion-content{
+    --ion-background-color: #32BA40;
 }
