@@ -1,9 +1,9 @@
 <ion-header>
-  <ion-toolbar end>
+  <ion-toolbar>
       <ion-buttons slot="start">
           <ion-back-button></ion-back-button>
         </ion-buttons>
-    <ion-title>
+    <ion-title end>
       <p class="first">Carrot Spacing</p>
       <p class="first rightspace" (click)="dismiss()">Close</p>
 
@@ -14,7 +14,7 @@
 <ion-content>
   <div>
       <p>
-          Plant carrot seeds ¼ inch deep and 1 foot apart. Later in the spring, thin carrot plants to 2-3 inches apart in rows 16-24 inches apart.
+        {{ detailsInfo }}
       </p>
   </div>
 </ion-content>

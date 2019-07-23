@@ -1,7 +1,7 @@
   ion-card {
     position: relative;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 30px;
   }
 
   .card-title {
@@ -10,7 +10,7 @@
     font-size: 34px;
     width: 100%;
     font-weight: bold;
-    color:black;
+    color:white;
   }
 
   .card-subtitle {
@@ -23,10 +23,10 @@
   ion-card{
     display: block;
     margin: auto;
-    width: 323px;
-    height: 101px;
+    width: 335px;
+    height: 117px;
     color: black;
-    background-color: white;
+    background-color: #FEA826;
     margin-bottom: 20px;
     box-shadow: -8px 16px 20px rgba(0, 0, 0, 0.25);
   }

@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'potato', loadChildren: './potato/potato.module#PotatoPageModule' },
   { path: 'tomato', loadChildren: './tomato/tomato.module#TomatoPageModule' },
   { path: 'details', loadChildren: './carrot/details/details.module#DetailsPageModule' },
+  { path: 'details2', loadChildren: './celery/details2/details2.module#Details2PageModule' },
 ];
 @NgModule({
   imports: [

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ModalController } from '@ionic/angular';
+import {CarrotDetailsSharingService} from '../carrot-details-sharing.service';
 
 
 @Component({
@@ -8,10 +9,11 @@ import { ModalController } from '@ionic/angular';
   styleUrls: ['./details.page.scss'],
 })
 export class DetailsPage implements OnInit {
-
-  constructor(public modalController: ModalController) { }
+  detailsInfo:string;
+  constructor(public modalController: ModalController, public sharingService: CarrotDetailsSharingService) { }
 
   ngOnInit() {
+    this.detailsInfo=this.sharingService.getDetails();
   }
 
   dismiss() {
