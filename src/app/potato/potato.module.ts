@@ -6,11 +6,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { PotatoPage } from './potato.page';
+import { PotatoDetailsPage } from './potato-details/potato-details.page';
+import { SharedModule } from './shared.module';
 
 const routes: Routes = [
   {
     path: '',
     component: PotatoPage
+  },
+  {
+    path: './details/details.page',
+    component: PotatoDetailsPage
   }
 ];
 
@@ -19,6 +25,7 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
+    SharedModule,
     RouterModule.forChild(routes)
   ],
   declarations: [PotatoPage]

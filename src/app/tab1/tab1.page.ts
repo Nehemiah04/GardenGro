@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -8,9 +9,12 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {
+  constructor(public router: Router) {
     
   }
   
+  navigate(url){
+    this.router.navigate([url]);
+  }
 
 }

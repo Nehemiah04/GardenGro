@@ -1,16 +1,18 @@
-<!-- <ion-card> -->
-  
+<ion-header>
   <ion-toolbar>
-      <img id="gardengro" src="../../assets/GardenGro.png">
+    <ion-title>
+    <img id="gardengro" src="../../assets/GardenGro.png">
+    </ion-title>
+
   </ion-toolbar>
-<!-- </ion-card> -->
-<ion-content >
-  <!-- <ion-searchbar></ion-searchbar> -->
+</ion-header>
+
+<!-- <ion-searchbar></ion-searchbar>
     <div class="bg">
       <a routerLink="/carrot">
         <ion-card class="carrot">
               <ion-card-content>
-                  <img class="vegetable" src="../../assets/Carrot Icon.png">
+                  <img class="vegetable" src="../../assets/Group (2).png">
                   <div class="card-title">Carrot</div>
               </ion-card-content>
         </ion-card>
@@ -18,7 +20,7 @@
       <a routerLink="/celery">
         <ion-card class="celery">
           <ion-card-content>
-            <img class="vegetable" src="../../assets/Celery Icon.png" >
+            <img class="vegetable" src="../../assets/Group(4).png" >
             <div class="card-title">Celery</div>
           </ion-card-content>
         </ion-card>
@@ -26,7 +28,7 @@
       <a routerLink="/tomato">
         <ion-card class="tomato">
           <ion-card-content>
-            <img class="vegetable" src="../../assets/Tomato icon.png">
+            <img class="vegetable" src="../../assets/Group(3).png">
             <div class="card-title">Tomato</div>
           </ion-card-content>
         </ion-card>
@@ -34,10 +36,56 @@
       <a routerLink="/potato">
         <ion-card class="potato">
           <ion-card-content>
-            <img class="vegetable" src="../../assets/potato icon.png">
+            <img class="vegetable" src="../../assets/Group(5).png">
             <div class="card-title">Potato</div>
           </ion-card-content>   
         </ion-card>
       </a>
-    </div>
+    </div> -->
+
+<ion-content fullscreen scroll-y="false">
+  <ion-slides pager="true">
+
+    <ion-slide>
+      <div class="mycard" (click)="navigate('/carrot')">
+        <div>
+          <img src="../../assets/1525198880513.png" />
+        </div>
+        <h2>Carrots</h2>
+        <div>
+        </div>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="mycard" (click)="navigate('/celery')">
+        <img src="../../assets/chai-thai-celery.png" />
+        <div>
+          <h2>Celery</h2>
+        </div>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="mycard" (click)="navigate('/tomato')">
+        <img src="../../assets/tomatoes.png" />
+        <div>
+
+          <h2>Tomato</h2>
+        </div>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="mycard" (click)="navigate('/potato')">
+        <img src="../../assets/Potatoes.png" />
+        <div>
+          <h2>Potato</h2>
+
+        </div>
+      </div>
+    </ion-slide>
+
+  </ion-slides>
+
 </ion-content>

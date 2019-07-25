@@ -7,6 +7,8 @@ import { IonicModule } from '@ionic/angular';
 
 import { CarrotPage } from './carrot.page';
 import { DetailsPage } from './details/details.page';
+import {SharedModule} from './shared.module';
+import {} from './details/details.module';
 
 const routes: Routes = [
   {
@@ -24,8 +26,9 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
+    SharedModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [CarrotPage, DetailsPage]
+  declarations: [CarrotPage]
 })
 export class CarrotPageModule {}

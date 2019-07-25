@@ -1,17 +1,18 @@
 <ion-header>
     <ion-toolbar>
-      <div class="instructions">Instructions</div> 
+      <div>Catagories</div> 
       <ion-buttons slot="start">
-        <ion-back-button></ion-back-button>
+        <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
       </ion-buttons>
     </ion-toolbar>
   </ion-header>
-  <ion-content>
+  <ion-content fullscreen>
     <div class="bg">
-        <ion-card routerLink="/details2" (click)="spacingModal()"><div class="card">Celery Spacing</div></ion-card>
-        <ion-card routerLink="/details2" (click)="isolationModal()"><div class="card">Recommended Isolation Distance</div></ion-card>
-        <ion-card routerLink="/details2" (click)="wateringModal()"><div class="card">Watering</div></ion-card>
-        <ion-card routerLink="/details2" (click)="temperatureModal()"><div class="card">Temperature of Soil</div></ion-card>
-        <ion-card routerLink="/details2" (click)="weedingModal()"><div class="card">Weeding</div></ion-card>
+        <ion-card (click)="spacingModal()"><div class="card">Celery Spacing</div></ion-card>
+        <ion-card (click)="wateringModal()"><div class="card">Watering</div></ion-card>
+        <ion-card (click)="temperatureModal()"><div class="card">Temperature of Soil</div></ion-card>
+        <ion-card (click)="weedingModal()"><div class="card">Weeding</div></ion-card>
     </div>
   </ion-content>
+    
+  

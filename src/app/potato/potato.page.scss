@@ -1,38 +1,169 @@
-.vegetable{
+::ng-deep .toolbar-container, ion-toolbar, ion-title{
+    height: 55px !important;
+    --min-height: 55px !important;
+  }
+  
+  .vegetable{
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      
+  }
+  
+  p {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  h1 {
+      font-size: 40px;
+      font-style: italic;
+      margin-left: 82px;
+  
+  }
+  
+   div {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;;
+  line-height: 40px;
+  margin-left: 20px;
+  margin-right: 17px;
+  padding-left: 26px;
+  padding-right: 40px;    
+  
+  }
+  
+  h4 {
+      font-weight: bold;
+      font-family: Merge One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #000000
+  
+  }
+  
+  // ion-card{
+  //     padding-left: 111px;
+  // }
+  ion-card {
+      position: relative;
+      text-align: center;
+    }
+  
+    .card-title {
+      position: absolute;
+      top: 22%;
+      font-size: 34px;
+      width: 100%;
+      font-weight: bold;
+      color:black;
+    }
+  
+    .card-subtitle {
+      font-size: 1.0em;
+      position: absolute;
+      top: 52%;
+      width: 100%;
+      color: black;
+    }
+    ion-card{
+      display: block;
+      margin: auto;
+      width: 355px;
+      height: 283px;
+      color: white;
+      background-color:#FEA826;
+      margin-top: -4px;
+      margin-bottom: 26px;
+      box-shadow: -8px 16px 20px rgba(0, 0, 0, 0.25);
+      margin-left: -16px;
+    }
+
+    .watering{
+        background-color:#26B0FE;
+    }
+
+    .temperatureofsoil{
+        background-color: sienna;
+    }
+
+    .weeding{
+        background-color: #50A675;
+    
+    }
+
+
+
+    
+  ion-toolbar{
+    margin-bottom: 20px;
+  }
+    #gardengro{ 
+      display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+      width: 199px;
+      height:68px;
+      padding-top: 10px
     
-}
-
-p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-h1 {
-    font-size: 40px;
-    font-style: italic;
-    color: #209F2D;
-    margin-left: 82px;
-
-}
-
-div {
+    }
+  
+    .bg{
+      background-color: white;
+      margin-top: 0;
+      width: fit-content;
+      height: fit-content;
+      padding-top: 9px;
+      margin-left: auto;
+    }
+  
+   img{
+    width: 67px;
+    height: 67px;
+   }
+  
+   .ion-card-header{
     font-family: Merge One;
-font-style: normal;
-font-weight: normal;
-font-size: 34px;
-line-height: 40px;
-margin-left: 30px;
-margin-right: 30px;
-padding-left: 60px;
-padding-right: 45px;
-    color: #209f2d
-}
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+   }
+  
+   .ion-card-content{
+     display: inline-block;
+   }
+  
+   .text {
+     width: 50px;
+     height: 50px;
+   }
+  
+   .scroll-content{
+  
+  }
+  .card { 
+      padding-top: 25px;
+      font-size: 32px;
+  }
+  ion-content{
+    // --ion-background-color: #32BA40;
+  }
+  
+  .spacingcard{
+      background-color: #FEA826;
+  }
+  
+  ion-card-header {
+    display: inline;
+  }
 
+  .title{
 
-h4 {
-    font-weight: bold;
-    color:  #209F2D;
-}
+  }
+
+  .spacing {
+
+  }
