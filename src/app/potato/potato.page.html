@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <div>Categories</div>
+    <div class="catheader">Categories</div>
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
     </ion-buttons>
@@ -8,30 +8,61 @@
 </ion-header>
 
 <ion-content fullscreen>
-  <div class="bg">
-    <ion-card (click)="spacingModal()">
+  <d">
       <ion-card-header class="card-header">
-          <img class="spacing" src="../../assets/Potato Spacing 16.png">
-          <div class="title">Potato Spacing</div>
+          <div class="title">
+            <div class="icon"><img class="spacing" src="../../assets/Potato Spacing 16.png"></div>
+            <div>Potato Spacing</div>
+          </div>
       </ion-card-header>
 
       <ion-card-content class="card-content">
+        <p class="desc">Plant them about 3 inches deep and 12 inches apart within the rows, leaving about 3 feet of space between the rows.</p>
 
       </ion-card-content>
     </ion-card>
 
-    <ion-card class="watering" (click)="wateringModal()">
-      <div class="card">Watering</div>
-      <img class="watering 2.1" src="../../assets/Watering 2.1.png">
+    <ion-card class="watering">
+      <ion-card-header class="card-header">
+          <div class="title">
+            <div class="icon"><img class="spacing" src="../../assets/Watering 2.1.png"></div>
+            <div>Watering</div>
+          </div>
+      </ion-card-header>
+
+      <ion-card-content class="card-content">
+        <p class="desc">If you need to water, be sure you do a thorough job, applying enough to moisten the soil 8- to 10-inches below ground. Deep watering is the only way to go.</p>
+
+      </ion-card-content>
     </ion-card>
 
-    <ion-card class="temperatureofsoil" (click)="temperatureModal()">
-      <div class="card">Temperature of Soil</div>
-      <img class="temperature" src="../../assets/Temperature.png">
-    </ion-card>
+    <ion-card class="temperatureofsoil">
+        <ion-card-header class="card-header">
+            <div class="title">
+              <div class="icon"><img class="spacing" src="../../assets/Temperature.png"></div>
+              <div>Temperature of Soil</div>
+            </div>
+        </ion-card-header>
+  
+        <ion-card-content class="card-content">
+          <p class="desc">Germination temperature: 40 F - Do not plant seed potatoes until soil reaches 40 F.</p>
+  
+        </ion-card-content>
+      </ion-card>
 
-    <ion-card class="weeding" (click)="weedingModal()">
-      <div class="card">Weeding</div>
-    </ion-card>
+    <ion-card class="weeding">
+        <ion-card-header class="card-header">
+            <div class="title">
+              <div class="icon"><img class="spacing" src="../../assets/shovel.png"></div>
+              <div>Weeding</div>
+            </div>
+        </ion-card-header>
+  
+        <ion-card-content class="card-content">
+          <p class="desc">Once hills are made, do all weeding by hand, as to not disturb the vegetable.</p>
+  
+        </ion-card-content>
+      </ion-card>
+
   </div>
 </ion-content>

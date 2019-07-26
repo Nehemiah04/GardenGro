@@ -19,8 +19,25 @@
   }
 
   .mycard{
-    background-color: white;
+    background-color: #FEA826;
     padding: 8px;
+  }
+
+  .green{
+    background-color: #50A675;
+  }
+
+  .red{
+    background-color: #E56363;;
+
+  }
+
+  .sub{
+    margin: 0px;
+    color: white;
+  }
+  .brown{
+    background-color: #C3995A;
   }
   ::ng-deep .swiper-pagination-bullet{
     background: #C4C4C4 !important;
@@ -105,4 +122,8 @@ ion-slides{
   height: auto;
   max-height: 100%;
   height: 560px;
+}
+
+.tomatocard{
+  background-color: red;
 }

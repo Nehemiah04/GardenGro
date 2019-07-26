@@ -1,6 +1,7 @@
 ::ng-deep .toolbar-container, ion-toolbar, ion-title{
     height: 55px !important;
     --min-height: 55px !important;
+   
   }
   
   .vegetable{
@@ -12,7 +13,11 @@
   }
   
   p {
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding-right: 35px;
   }
   
   h1 {
@@ -26,13 +31,9 @@
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
-    font-size: 35px;;
-  line-height: 40px;
-  margin-left: 20px;
-  margin-right: 17px;
-  padding-left: 26px;
-  padding-right: 40px;    
-  
+    font-size: 35px;  
+    color:white;
+    
   }
   
   h4 {
@@ -75,11 +76,12 @@
       width: 355px;
       height: 283px;
       color: white;
-      background-color:#FEA826;
-      margin-top: -4px;
+      background-color:#C3995A;
+      margin-top: -14px;
       margin-bottom: 26px;
       box-shadow: -8px 16px 20px rgba(0, 0, 0, 0.25);
       margin-left: -16px;
+      margin-right: 1px;
     }
 
     .watering{
@@ -121,8 +123,7 @@
     }
   
    img{
-    width: 67px;
-    height: 67px;
+    width: 100%;
    }
   
    .ion-card-header{
@@ -161,9 +162,32 @@
   }
 
   .title{
-
+    display: flex;
+    padding-left: 16px;
   }
 
   .spacing {
+      
 
+  }
+
+  .shovel{
+      height:100px ;
+      width: 100px;
+  }
+
+  .icon{
+      width: 50px;
+  }
+
+  .desc{
+      text-align: left;
+
+  }
+
+  .catheader{
+      color: #000000;
+      padding-left: 50px;
+      padding-right: 55px;
+    //   text-align: center;
   }

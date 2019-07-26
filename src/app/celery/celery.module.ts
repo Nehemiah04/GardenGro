@@ -6,17 +6,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { CeleryPage } from './celery.page';
-import { Details2Page } from './details2/details2.page';
-import {SharedModule} from './shared.module';
 
 const routes: Routes = [
   {
     path: '',
     component: CeleryPage
-  },
-  {
-    path: './details/details.page',
-    component: Details2Page
   }
 ];
 
@@ -25,7 +19,6 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    SharedModule,
     RouterModule.forChild(routes)
   ],
   declarations: [CeleryPage]

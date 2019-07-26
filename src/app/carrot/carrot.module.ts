@@ -6,18 +6,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { CarrotPage } from './carrot.page';
-import { DetailsPage } from './details/details.page';
-import {SharedModule} from './shared.module';
-import {} from './details/details.module';
 
 const routes: Routes = [
   {
     path: '',
     component: CarrotPage
-  },
-  {
-    path: './details/details.page',
-    component: DetailsPage
   }
 ];
 
@@ -26,7 +19,6 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    SharedModule,
     RouterModule.forChild(routes)
   ],
   declarations: [CarrotPage]

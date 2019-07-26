@@ -6,17 +6,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { TomatoPage } from './tomato.page';
-import { TomatoDetailsPage } from './tomato-details/tomato-details.page';
-import {SharedModule} from './shared.module';
 
 const routes: Routes = [
   {
     path: '',
     component: TomatoPage
-  },
-  {
-    path: './tomato-details/tomato-details.page',
-    component: TomatoDetailsPage
   }
 ];
 
@@ -26,7 +20,6 @@ const routes: Routes = [
     FormsModule,
     IonicModule,
     RouterModule.forChild(routes),
-    SharedModule
   ],
   declarations: [TomatoPage]
 })

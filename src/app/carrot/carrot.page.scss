@@ -12,7 +12,11 @@
 }
 
 p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding-right: 35px;
 }
 
 h1 {
@@ -23,16 +27,11 @@ h1 {
 }
 
  div {
-    font-family: Merge One;
-font-style: normal;
-font-weight: normal;
-font-size: 34px;
-line-height: 40px;
-margin-left: 20px;
-margin-right: 17px;
-padding-left: 26px;
-padding-right: 40px;    
-
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;  
+  color:white;
 }
 
 h4 {
@@ -51,7 +50,6 @@ color: #000000
 ion-card {
     position: relative;
     text-align: center;
-    border-radius: 20px;
   }
 
   .card-title {
@@ -73,14 +71,33 @@ ion-card {
   ion-card{
     display: block;
     margin: auto;
-    width: 323px;
-    height: 101px;
-    color: black;
-    background-color: white;
-    margin-top: -17x;
-    margin-bottom: 58px;
+    width: 355px;
+    height: 283px;
+    color: white;
+    background-color:#FEA826;
+    margin-top: -14px;
+    margin-bottom: 26px;
     box-shadow: -8px 16px 20px rgba(0, 0, 0, 0.25);
+    margin-left: -16px;
+    margin-right: 1px;
   }
+
+  .watering{
+      background-color:#26B0FE;
+  }
+
+  .temperatureofsoil{
+      background-color: sienna;
+  }
+
+  .weeding{
+      background-color: #50A675;
+  
+  }
+
+
+
+  
 ion-toolbar{
   margin-bottom: 20px;
 }
@@ -99,13 +116,12 @@ ion-toolbar{
     margin-top: 0;
     width: fit-content;
     height: fit-content;
-    padding-top: 33px;
+    padding-top: 9px;
     margin-left: auto;
   }
 
  img{
-  width: 67px;
-  height: 67px;
+  width: 100%;
  }
 
  .ion-card-header{
@@ -133,4 +149,42 @@ ion-toolbar{
 }
 ion-content{
   // --ion-background-color: #32BA40;
+}
+
+.spacingcard{
+    background-color: #FEA826;
+}
+
+ion-card-header {
+  display: inline;
+}
+
+.title{
+  display: flex;
+  padding-left: 16px;
+}
+
+.spacing {
+    
+
+}
+
+.shovel{
+    height:100px ;
+    width: 100px;
+}
+
+.icon{
+    width: 50px;
+}
+
+.desc{
+    text-align: left;
+
+}
+
+.catheader{
+    color: #000000;
+     padding-left: 50px;
+     padding-right: 55px;
 }
