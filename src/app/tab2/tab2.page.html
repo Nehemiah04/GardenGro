@@ -1,1 +1,60 @@
+<ion-header>
+    <ion-toolbar>
+        <div class="catheader">Forecast</div>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/tabs/tab1"></ion-back-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
 
+<ion-content class="content" scroll-y="true">
+
+    <div class="container">
+        <div class="left"><img src="../../assets/whiteSun (1).png" class=""></div>
+
+        <div class="right">
+            <h1 class=""> {{ temperature  | number:'1.0-0' }} &deg; </h1>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h1>Updates</h1>
+        <div class="item">
+            <div class="item-left">
+                Carrots
+            </div>
+            <div class="item-right" routerLink="/carrot-forecast">
+                
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-left">
+                Celery 
+            </div>
+            <div class="item-right" routerLink="/celery-forecast">
+                    
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-left">
+                Tomato 
+            </div>
+            <div class="item-right" routerLink="/tomato-forecast">
+                
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-left">
+                Potato 
+            </div>
+
+            <div class="item-right" routerLink="/potato-forecast">
+            
+            </div>
+        </div>
+    </div>
+
+</ion-content>

@@ -3,7 +3,11 @@ color: #32BA40;
 }
 
 ion-icon {
-    color: black;
+    color: #b1afaf;
     width: 50px;
     height: 50px
+}
+
+.tab-selected ion-icon{
+    color: black;
 }

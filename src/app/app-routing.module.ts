@@ -6,7 +6,12 @@ const routes: Routes = [
   { path: 'carrot', loadChildren: './carrot/carrot.module#CarrotPageModule' },
   { path: 'celery', loadChildren: './celery/celery.module#CeleryPageModule' },
   { path: 'potato', loadChildren: './potato/potato.module#PotatoPageModule' },
-  { path: 'tomato', loadChildren: './tomato/tomato.module#TomatoPageModule' }
+  { path: 'tomato', loadChildren: './tomato/tomato.module#TomatoPageModule' },
+  { path: 'forecastpage', loadChildren: './forecastpage/forecastpage.module#ForecastpagePageModule' },
+  { path: 'carrot-forecast', loadChildren: './pages/carrot-forecast/carrot-forecast.module#CarrotForecastPageModule' },
+  { path: 'celery-forecast', loadChildren: './pages/celery-forecast/celery-forecast.module#CeleryForecastPageModule' },
+  { path: 'tomato-forecast', loadChildren: './pages/tomato-forecast/tomato-forecast.module#TomatoForecastPageModule' },
+  { path: 'potato-forecast', loadChildren: './pages/potato-forecast/potato-forecast.module#PotatoForecastPageModule' }
 ];
 @NgModule({
   imports: [
